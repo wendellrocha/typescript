@@ -36,12 +36,6 @@ pares(32, 321);
 // exercício 3
 var skills = ["ReactJS", "Javascript", "React Native"];
 function temHabilidade(skills) {
-  /* for(var i = 0; i <= skills.length; i++) {
-        if(skills[i] === 'Javascript') {
-            return true;
-        }
-    } */
-  // OU
   if (skills.indexOf("Javascript") != -1) {
     return true;
   } else {
