@@ -82,5 +82,10 @@ var usuarios = [
 ];
 
 for (let usuario of usuarios) {
-    console.log("O " + usuario.nome + " possui as habilidades: " + usuario.habilidade.join(', '));
+  console.log(
+    "O " +
+      usuario.nome +
+      " possui as habilidades: " +
+      usuario.habilidade.join(", ")
+  );
 }
