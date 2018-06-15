@@ -1,4 +1,4 @@
-// exercício 1
+// exercícios do módulo 1
 // https://github.com/RocketSeat/curso-javascript-do-zero/blob/master/tarefas/modulo01.md
 var endereco = {
   rua: "Rua dos pinheiros",
