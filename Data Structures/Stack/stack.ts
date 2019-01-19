@@ -11,7 +11,7 @@ class Stack<T> {
         return this.top === -1;
     }
 
-    getTop<T>() {
+    getTop(): T {
         if (this.isEmpty()) {
             return null;
         }
@@ -22,7 +22,7 @@ class Stack<T> {
         this.array[++this.top] = element;
     }
 
-    pop<T>(): void {
+    pop(): T {
         if (this.isEmpty()) {
             throw new Error("Stack is empty.");
         }
