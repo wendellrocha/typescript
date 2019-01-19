@@ -33,30 +33,3 @@ var Stack = /** @class */ (function () {
     };
     return Stack;
 }());
-var stack = new Stack();
-console.log("Top: " + stack.getTop());
-stack.push(1);
-console.log(stack.toArray());
-stack.push(4);
-console.log(stack.toArray());
-console.log("Top: " + stack.getTop());
-stack.push(6);
-console.log(stack.toArray());
-stack.push(10);
-console.log(stack.toArray());
-console.log("Top: " + stack.getTop());
-console.log(stack.pop());
-console.log(stack.toArray());
-console.log(stack.isEmpty());
-console.log(stack.pop());
-console.log(stack.toArray());
-console.log(stack.pop());
-console.log(stack.toArray());
-console.log(stack.pop());
-console.log(stack.toArray());
-try {
-    stack.pop();
-}
-catch (exception) {
-    console.log(exception.message);
-}
